@@ -15,6 +15,6 @@ public class UserInitializer extends AbstractAnnotationConfigDispatcherServletIn
 
     @Override
     protected String[] getServletMappings() {
-        return new String[]{"/user"};
+        return new String[]{"/"};
     }
 }
